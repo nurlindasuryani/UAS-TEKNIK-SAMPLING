@@ -31,7 +31,7 @@ Populasi dalam penelitian ini adalah seluruh mahasiswa Program Studi Statistika 
 Pengambilan sampel menggunakan metode Two-Stage Cluster Sampling. Pada tahap pertama dilakukan pemilihan kelas sebagai klaster secara acak sederhana. Selanjutnya, pada tahap kedua dilakukan pemilihan mahasiswa secara acak dari setiap kelas yang terpilih sebagai responden penelitian.
 <img width="237" height="391" alt="image" src="https://github.com/user-attachments/assets/838cea4c-bb90-452f-b599-e7ddff221100" />
 
-## ANALISIS DATA
+# ANALISIS DATA
 # MEMANGGIL PACKAGE
 
 library(readxl)
