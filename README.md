@@ -22,13 +22,7 @@ Jenis Penelitian
 Penelitian ini merupakan penelitian kuantitatif dengan metode survei. Data dikumpulkan melalui penyebaran kuesioner kepada mahasiswa Program Studi Statistika Universitas Mataram untuk memperoleh informasi mengenai tingkat Self-Regulated Learning.
 2.2 Populasi dan Sampel
 Populasi dalam penelitian ini adalah seluruh mahasiswa Program Studi Statistika Universitas Mataram yang menjadi sasaran penelitian.
-No	Cluster	Keterangan
-1	A 2023	  Mahasiswa Statistika Angkatan 2023 Kelas A
-2	B 2023	  Mahasiswa Statistika Angkatan 2023 Kelas B
-3	A 2024	  Mahasiswa Statistika Angkatan 2024 Kelas A
-4	B 2024  	Mahasiswa Statistika Angkatan 2024 Kelas B
-5	A 2025	  Mahasiswa Statistika Angkatan 2025 Kelas A
-6	B 2025	  Mahasiswa Statistika Angkatan 2025 Kelas B
+<img width="349" height="108" alt="image" src="https://github.com/user-attachments/assets/05326ed0-e317-4547-ae9a-977ba931c44e" />
 
 Pengambilan sampel menggunakan metode Two-Stage Cluster Sampling. Pada tahap pertama dilakukan pemilihan kelas sebagai klaster secara acak sederhana. Selanjutnya, pada tahap kedua dilakukan pemilihan mahasiswa secara acak dari setiap kelas yang terpilih sebagai responden penelitian.
 <img width="237" height="391" alt="image" src="https://github.com/user-attachments/assets/838cea4c-bb90-452f-b599-e7ddff221100" />
