@@ -293,17 +293,18 @@ Langkah ini memastikan bahwa variabel kategori ikut dikenali dalam analisis surv
 # Uji Validitas
 Hasil uji validitas menunjukkan:
 
-Item	r hitung	Keputusan
-P1	  0,353	    Tidak Valid
-P2	  0,456	    Valid
-P3	  0,443	    Valid
-P4	  0,365    	Valid
-P5	  0,489	    Valid
-P6  	0,363	    Valid
-P7  	0,466	    Valid
-P8  	0,462	    Valid
-P9  	0,090	    Tidak Valid
-P10  	0,597	    Valid
+| Item | r hitung | Keputusan   |
+| ---- | -------: | ----------- |
+| P1   |    0,353 | Tidak Valid |
+| P2   |    0,456 | Valid       |
+| P3   |    0,443 | Valid       |
+| P4   |    0,365 | Valid       |
+| P5   |    0,489 | Valid       |
+| P6   |    0,363 | Valid       |
+| P7   |    0,466 | Valid       |
+| P8   |    0,462 | Valid       |
+| P9   |    0,090 | Tidak Valid |
+| P10  |    0,597 | Valid       |
 
 Interpretasi
 
