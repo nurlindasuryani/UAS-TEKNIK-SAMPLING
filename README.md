@@ -41,28 +41,42 @@ Populasi Mahasiswa Statistika
 ▼
 
 6 Cluster (Kelas)
+
 ┌──────────────────────┐
 │ A2023 │ B2023 │ A2024│
 │ B2024 │ A2025 │ B2025│
 └──────────────────────┘
+
 │
+
 Pengundian Acak
+
 │
+
 ▼
+
 Cluster Terpilih
+
 ┌────────────────┐
 │    A2024       │
 │    B2025       │
 └────────────────┘
+
 │
+
 Pemilihan Mahasiswa Secara Acak
+
 │
+
 ┌──────────────┐
 │ A2024 = 11   │
 │ B2025 = 19   │
 └──────────────┘
+
 │
+
 ▼
+
 Total Sampel = 30
 
 ## ANALISIS DATA
