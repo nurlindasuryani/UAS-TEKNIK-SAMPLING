@@ -34,51 +34,8 @@ No	Cluster	Keterangan
 
 Pengambilan sampel menggunakan metode Two-Stage Cluster Sampling. Pada tahap pertama dilakukan pemilihan kelas sebagai klaster secara acak sederhana. Selanjutnya, pada tahap kedua dilakukan pemilihan mahasiswa secara acak dari setiap kelas yang terpilih sebagai responden penelitian.
 
-Populasi Mahasiswa Statistika
-        │
-        ▼
 <img width="176" height="374" alt="image" src="https://github.com/user-attachments/assets/f3a645c7-00a5-4f62-b408-11da4ad794ec" />
 
-6 Cluster (Kelas)
-
-┌──────────────────────┐
-
-│ A2023 │ B2023 │ A2024│
-
-│ B2024 │ A2025 │ B2025│
-
-└──────────────────────┘
-        │
-
-Pengundian Acak
-        │
-        ▼
-
-Cluster Terpilih
-
-┌────────────────┐
-
-│    A2024       │
-
-│    B2025       │
-
-└────────────────┘
-        │
-
-Pemilihan Mahasiswa Secara Acak
-
-│
-
-┌──────────────┐
-│ A2024 = 11   │
-│ B2025 = 19   │
-└──────────────┘
-
-│
-
-▼
-
-Total Sampel = 30
 
 ## ANALISIS DATA
 
