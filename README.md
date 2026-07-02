@@ -15,13 +15,16 @@ Hasil penelitian ini diharapkan dapat memberikan informasi mengenai tingkat Self
 
 ## TUJUAN PENELITIAN
 •	Mengetahui tingkat Self-Regulated Learning mahasiswa Program Studi Statistika Universitas Mataram.
+
 •	Mengestimasi rata-rata tingkat Self-Regulated Learning mahasiswa menggunakan metode Two-Stage Cluster Sampling.
+
 •	Mengetahui tingkat ketelitian hasil estimasi melalui perhitungan SE, RSE, Interval Kepercayaan 95%, dan Design Effect (Deff).
 
 ## METODOLOGI PENELITIAN
-Jenis Penelitian
+### Jenis Penelitian
 Penelitian ini merupakan penelitian kuantitatif dengan metode survei. Data dikumpulkan melalui penyebaran kuesioner kepada mahasiswa Program Studi Statistika Universitas Mataram untuk memperoleh informasi mengenai tingkat Self-Regulated Learning.
-2.2 Populasi dan Sampel
+
+### Populasi dan Sampel
 Populasi dalam penelitian ini adalah seluruh mahasiswa Program Studi Statistika Universitas Mataram yang menjadi sasaran penelitian.
 
 
