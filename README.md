@@ -388,6 +388,16 @@ DEFF = 1,481
 Interpretasi
 
 Nilai Design Effect sebesar 1,481 menunjukkan bahwa varians pada desain Two-Stage Cluster Sampling sekitar 1,48 kali lebih besar dibandingkan jika menggunakan Simple Random Sampling.
+## Perbandingan SRS vs Two-Stage Cluster Sampling
+| Parameter       |            SRS | Two-Stage Cluster |
+| --------------- | -------------: | ----------------: |
+| Mean            |          2,367 |             2,380 |
+| Memakai Bobot   |          Tidak |                Ya |
+| Memakai Cluster |          Tidak |                Ya |
+| Standard Error  | Tidak dihitung |             0,083 |
+| CI 95%          | Tidak dihitung |       2,217–2,543 |
+| RSE             | Tidak dihitung |             3,50% |
+| Design Effect   |      Tidak ada |             1,481 |
 
 ## KESIMPULAN
 
