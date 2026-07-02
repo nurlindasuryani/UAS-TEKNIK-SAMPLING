@@ -397,7 +397,14 @@ Nilai Design Effect sebesar 1,481 menunjukkan bahwa varians pada desain Two-Stag
 | CI 95%          | Tidak dihitung |       2,217–2,543 |
 | RSE             | Tidak dihitung |             3,50% |
 | Design Effect   |      Tidak ada |             1,481 |
+## Visualisasi Tingkat Self-Regulated Learning
 
+<img width="455" height="305" alt="image" src="https://github.com/user-attachments/assets/d9f3a13e-2b9b-495b-825e-5039fd67ae88" />
+Interpretasi
+
+Diagram batang menunjukkan distribusi responden berdasarkan kategori Self-Regulated Learning (SRL). Dari 30 responden, sebanyak 23 mahasiswa (76,67%) berada pada kategori Rendah, 6 mahasiswa (20,00%) berada pada kategori Tinggi, dan 1 mahasiswa (3,33%) berada pada kategori Sangat Tinggi. Tidak terdapat responden yang termasuk dalam kategori Sangat Rendah.
+
+Hasil tersebut menunjukkan bahwa mayoritas mahasiswa Program Studi Statistika Universitas Mataram memiliki tingkat Self-Regulated Learning pada kategori Rendah. Hal ini mengindikasikan bahwa sebagian besar mahasiswa masih perlu meningkatkan kemampuan dalam mengatur proses belajar secara mandiri, seperti merencanakan kegiatan belajar, mengelola waktu, mempertahankan motivasi belajar, serta melakukan evaluasi terhadap hasil belajar yang telah dicapai. Sementara itu, hanya sebagian kecil mahasiswa yang telah memiliki tingkat Self-Regulated Learning pada kategori Tinggi dan Sangat Tinggi.
 ## KESIMPULAN
 
 Berdasarkan hasil penelitian mengenai Kajian Tingkat Self-Regulated Learning (SRL) Mahasiswa Program Studi Statistika Universitas Mataram Menggunakan Two-Stage Cluster Sampling, dapat disimpulkan bahwa:
