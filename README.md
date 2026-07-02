@@ -36,15 +36,18 @@ Pengambilan sampel menggunakan metode Two-Stage Cluster Sampling. Pada tahap per
 
 Populasi Mahasiswa Statistika
 
-│
+        │
 
-▼
+        ▼
 
 6 Cluster (Kelas)
 
 ┌──────────────────────┐
+
 │ A2023 │ B2023 │ A2024│
+
 │ B2024 │ A2025 │ B2025│
+
 └──────────────────────┘
 
 │
