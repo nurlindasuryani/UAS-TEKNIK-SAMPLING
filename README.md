@@ -3,11 +3,11 @@
 Proyek ini bertujuan untuk mengestimasi tingkat Self-Regulated Learning (SRL) mahasiswa Program Studi Statistika Universitas Mataram menggunakan metode Two-Stage Cluster Sampling. Penelitian dilakukan dengan menyebarkan kuesioner kepada mahasiswa terpilih berdasarkan desain sampling dua tahap. Tahap pertama adalah pemilihan cluster (misalnya berdasarkan angkatan atau kelas), sedangkan tahap kedua adalah pemilihan mahasiswa secara acak dari setiap cluster yang terpilih.
 Data yang dikumpulkan berupa jawaban kuesioner menggunakan skala Likert empat tingkat. Selanjutnya dilakukan pengolahan data yang meliputi uji validitas, uji reliabilitas, pembentukan skor SRL, pembersihan data (data cleaning), perhitungan peluang terpilihnya sampel, pembentukan bobot sampel, serta analisis estimasi menggunakan metode Two-Stage Cluster Sampling. Hasil analisis akan menghasilkan estimasi rata-rata tingkat Self-Regulated Learning mahasiswa beserta ukuran presisinya, seperti standard error, interval kepercayaan 95%, dan relative standard error (RSE).
 Proyek ini diharapkan memberikan gambaran yang akurat mengenai tingkat Self-Regulated Learning mahasiswa Program Studi Statistika Universitas Mataram. Hasil penelitian dapat dimanfaatkan sebagai dasar evaluasi dan penyusunan kebijakan akademik untuk meningkatkan kemampuan belajar mandiri mahasiswa, sekaligus menjadi contoh penerapan metode survei dan teknik estimasi berbasis Two-Stage Cluster Sampling dalam penelitian statistika.
-## STRUKTUR REPOSITORY
+# STRUKTUR REPOSITORY
 
 <img width="326" height="304" alt="image" src="https://github.com/user-attachments/assets/6bfc60d8-21c4-41d8-afcd-eff2f7a30403" />
 
-## LATAR BELAKANG
+# LATAR BELAKANG
 Self-Regulated Learning (SRL) merupakan kemampuan individu dalam mengatur, mengendalikan, dan mengevaluasi proses belajarnya secara mandiri untuk mencapai tujuan akademik. Mahasiswa yang memiliki tingkat SRL yang baik cenderung mampu menetapkan target belajar, mengelola waktu, mencari sumber belajar tambahan, serta melakukan evaluasi terhadap hasil belajar yang telah dicapai. Kemampuan ini sangat penting terutama bagi mahasiswa Program Studi Statistika yang dituntut memiliki kemampuan berpikir kritis, analitis, dan mandiri dalam memahami berbagai konsep statistik.
 Setiap mahasiswa memiliki tingkat Self-Regulated Learning yang berbeda-beda. Perbedaan tersebut dipengaruhi oleh berbagai faktor, seperti motivasi belajar, manajemen waktu, lingkungan belajar, serta kebiasaan belajar. Oleh karena itu, diperlukan penelitian untuk mengetahui gambaran tingkat Self-Regulated Learning mahasiswa Program Studi Statistika Universitas Mataram.
 Penelitian ini menggunakan metode Two-Stage Cluster Sampling, yaitu teknik pengambilan sampel dua tahap. Pada tahap pertama dipilih kelas secara acak sebagai klaster, kemudian pada tahap kedua dipilih mahasiswa secara acak dari kelas yang terpilih. Teknik ini dipilih karena lebih efisien dalam proses pengumpulan data dan sesuai dengan kondisi populasi yang terbagi dalam beberapa kelas.
@@ -32,7 +32,7 @@ Pengambilan sampel menggunakan metode Two-Stage Cluster Sampling. Pada tahap per
 <img width="237" height="391" alt="image" src="https://github.com/user-attachments/assets/838cea4c-bb90-452f-b599-e7ddff221100" />
 
 # ANALISIS DATA
-# MEMANGGIL PACKAGE
+## MEMANGGIL PACKAGE
 
 library(readxl)
 library(psych)
@@ -43,7 +43,7 @@ library(readxl) digunakan untuk membaca data yang tersimpan dalam file Excel (.x
 library(psych) digunakan untuk melakukan analisis psikometrik, seperti uji reliabilitas menggunakan Cronbach's Alpha.
 library(survey) digunakan untuk menganalisis data survei yang menggunakan desain sampling kompleks, seperti Two-Stage Cluster Sampling.
 
-# IMPORT DATA
+## IMPORT DATA
 DATA_TEKSAM <- read_excel("tugas teksam/DATA TEKSAM.xlsx")
 View(DATA_TEKSAM)
 
@@ -53,7 +53,7 @@ Data disimpan pada objek DATA_TEKSAM.
 View() digunakan untuk menampilkan data sehingga dapat diperiksa apakah data telah terbaca dengan benar.
 Item Pertanyaan
 
-# ITEM PERTANYAAN
+## ITEM PERTANYAAN
 
 item <- c("P1","P2","P3","P4","P5",
           "P6","P7","P8","P9","P10")
@@ -124,7 +124,7 @@ Semakin tinggi nilai Alpha menunjukkan instrumen semakin reliabel.
 Umumnya instrumen dikatakan reliabel apabila nilai Alpha ≥ 0,70.
 Menghitung Skor
 
-# MENGHITUNG SKOR
+## MENGHITUNG SKOR
 
 DATA_TEKSAM$Skor <- rowMeans(DATA_TEKSAM[item], na.rm = TRUE)
 
@@ -158,7 +158,7 @@ table(DATA_TEKSAM$ANGKATAN)
 Keterangan:
 Menampilkan jumlah responden berdasarkan kelas.
 Menampilkan jumlah responden berdasarkan angkatan.
-# INFORMASI SAMPLING
+## INFORMASI SAMPLING
 
 M <- 6
 m <- 2
@@ -177,7 +177,7 @@ NA24 dan NB25 adalah jumlah populasi pada masing-masing cluster.
 nA24 dan nB25 adalah jumlah sampel yang diambil dari masing-masing cluster.
 Peluang Pemilihan
 
-# PELUANG PEMILIHAN
+## PELUANG PEMILIHAN
 
 P1 <- m/M
 
@@ -194,7 +194,7 @@ Menghitung peluang pemilihan mahasiswa pada tahap kedua.
 Mengalikan kedua peluang untuk memperoleh peluang keseluruhan responden terpilih.
 Bobot Dasar
 
-# BOBOT DASAR
+## BOBOT DASAR
 
 Bobot_A24 <- 1/Pi_A24
 Bobot_B25 <- 1/Pi_B25
@@ -205,7 +205,7 @@ Bobot dasar dihitung sebagai kebalikan dari peluang pemilihan.
 Bobot ini digunakan agar hasil analisis dapat mewakili populasi.
 Response Rate
 
-# RESPONSE RATE
+## RESPONSE RATE
 
 Target <- 30
 
@@ -275,7 +275,7 @@ Interval kategori yang digunakan adalah:
 2,51–3,25 = Tinggi
 3,26–4,00 = Sangat Tinggi
 Hasil pengelompokan disimpan pada variabel Kategori.
-# Estimasi Kategori
+## Estimasi Kategori
 design_cluster <- svydesign(
   id = ~KELAS,
   weights = ~Bobot_Akhir,
@@ -287,9 +287,9 @@ Keterangan:
 Memperbarui objek desain survei setelah variabel Kategori ditambahkan ke dalam data.
 Langkah ini memastikan bahwa variabel kategori ikut dikenali dalam analisis survei.
 
-## HASIL DAN PEMBAHASAN
+# HASIL DAN PEMBAHASAN
 
-# Uji Validitas
+## Uji Validitas
 Hasil uji validitas menunjukkan:
 
 | Item | r hitung | Keputusan   |
