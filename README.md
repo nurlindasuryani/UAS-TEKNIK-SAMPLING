@@ -4,6 +4,7 @@ Proyek ini bertujuan untuk mengestimasi tingkat Self-Regulated Learning (SRL) ma
 Data yang dikumpulkan berupa jawaban kuesioner menggunakan skala Likert empat tingkat. Selanjutnya dilakukan pengolahan data yang meliputi uji validitas, uji reliabilitas, pembentukan skor SRL, pembersihan data (data cleaning), perhitungan peluang terpilihnya sampel, pembentukan bobot sampel, serta analisis estimasi menggunakan metode Two-Stage Cluster Sampling. Hasil analisis akan menghasilkan estimasi rata-rata tingkat Self-Regulated Learning mahasiswa beserta ukuran presisinya, seperti standard error, interval kepercayaan 95%, dan relative standard error (RSE).
 Proyek ini diharapkan memberikan gambaran yang akurat mengenai tingkat Self-Regulated Learning mahasiswa Program Studi Statistika Universitas Mataram. Hasil penelitian dapat dimanfaatkan sebagai dasar evaluasi dan penyusunan kebijakan akademik untuk meningkatkan kemampuan belajar mandiri mahasiswa, sekaligus menjadi contoh penerapan metode survei dan teknik estimasi berbasis Two-Stage Cluster Sampling dalam penelitian statistika.
 ## STRUKTUR REPOSITORY
+
 <img width="326" height="304" alt="image" src="https://github.com/user-attachments/assets/6bfc60d8-21c4-41d8-afcd-eff2f7a30403" />
 
 ## LATAR BELAKANG
