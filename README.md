@@ -24,7 +24,9 @@ Penelitian ini merupakan penelitian kuantitatif dengan metode survei. Data dikum
 2.2 Populasi dan Sampel
 Populasi dalam penelitian ini adalah seluruh mahasiswa Program Studi Statistika Universitas Mataram yang menjadi sasaran penelitian.
 
+
 <img width="349" height="108" alt="image" src="https://github.com/user-attachments/assets/05326ed0-e317-4547-ae9a-977ba931c44e" />
+
 
 Pengambilan sampel menggunakan metode Two-Stage Cluster Sampling. Pada tahap pertama dilakukan pemilihan kelas sebagai klaster secara acak sederhana. Selanjutnya, pada tahap kedua dilakukan pemilihan mahasiswa secara acak dari setiap kelas yang terpilih sebagai responden penelitian.
 <img width="237" height="391" alt="image" src="https://github.com/user-attachments/assets/838cea4c-bb90-452f-b599-e7ddff221100" />
