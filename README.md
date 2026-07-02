@@ -33,9 +33,7 @@ No	Cluster	Keterangan
 6	B 2025	Mahasiswa Statistika Angkatan 2025 Kelas B
 
 Pengambilan sampel menggunakan metode Two-Stage Cluster Sampling. Pada tahap pertama dilakukan pemilihan kelas sebagai klaster secara acak sederhana. Selanjutnya, pada tahap kedua dilakukan pemilihan mahasiswa secara acak dari setiap kelas yang terpilih sebagai responden penelitian.
-
-<img width="176" height="374" alt="image" src="https://github.com/user-attachments/assets/f3a645c7-00a5-4f62-b408-11da4ad794ec" />
-
+<img width="237" height="391" alt="image" src="https://github.com/user-attachments/assets/838cea4c-bb90-452f-b599-e7ddff221100" />
 
 ## ANALISIS DATA
 
