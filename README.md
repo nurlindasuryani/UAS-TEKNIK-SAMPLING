@@ -42,6 +42,7 @@ library(psych)
 library(survey)
 
 Keterangan:
+
 library(readxl) digunakan untuk membaca data yang tersimpan dalam file Excel (.xlsx).
 library(psych) digunakan untuk melakukan analisis psikometrik, seperti uji reliabilitas menggunakan Cronbach's Alpha.
 library(survey) digunakan untuk menganalisis data survei yang menggunakan desain sampling kompleks, seperti Two-Stage Cluster Sampling.
@@ -51,6 +52,7 @@ DATA_TEKSAM <- read_excel("tugas teksam/DATA TEKSAM.xlsx")
 View(DATA_TEKSAM)
 
 Keterangan:
+
 read_excel() digunakan untuk mengimpor data kuesioner dari file Excel ke dalam R.
 Data disimpan pada objek DATA_TEKSAM.
 View() digunakan untuk menampilkan data sehingga dapat diperiksa apakah data telah terbaca dengan benar.
@@ -159,6 +161,7 @@ table(DATA_TEKSAM$KELAS)
 table(DATA_TEKSAM$ANGKATAN)
 
 Keterangan:
+
 Menampilkan jumlah responden berdasarkan kelas.
 Menampilkan jumlah responden berdasarkan angkatan.
 ## INFORMASI SAMPLING
@@ -308,7 +311,7 @@ Hasil uji validitas menunjukkan:
 | P9   |    0,090 | Tidak Valid |
 | P10  |    0,597 | Valid       |
 
-Interpretasi
+Interpretasi:
 
 Berdasarkan uji validitas menggunakan korelasi Pearson dengan nilai r tabel = 0,361, diperoleh bahwa 8 dari 10 butir pertanyaan dinyatakan valid, yaitu P2, P3, P4, P5, P6, P7, P8, dan P10. Sementara itu P1 dan P9 tidak valid karena memiliki nilai r hitung lebih kecil dari r tabel.
 
@@ -318,7 +321,7 @@ Nilai:
 
 Cronbach Alpha = 0,734
 
-Interpretasi
+Interpretasi:
 
 Nilai Cronbach Alpha sebesar 0,734 (>0,70) menunjukkan bahwa instrumen penelitian memiliki reliabilitas yang baik, sehingga kuesioner memiliki konsistensi internal yang memadai untuk digunakan dalam penelitian.
 
@@ -329,7 +332,7 @@ Median = 2,200
 Minimum = 1,900
 Maksimum = 3,700
 
-Interpretasi
+Interpretasi:
 
 Skor Self-Regulated Learning diperoleh dari rata-rata jawaban 10 item pada setiap responden. Nilai rata-rata sebesar 2,367 menunjukkan bahwa secara umum tingkat Self-Regulated Learning mahasiswa berada pada kategori Rendah.
 
@@ -338,14 +341,14 @@ Output Alpha:
 
 miss = 0
 
-Interpretasi
+Interpretasi:
 
 Tidak ditemukan data yang hilang (missing value = 0) pada seluruh item kuesioner sehingga tidak diperlukan proses imputasi maupun penghapusan data.
 ## Deteksi & Penghapusan Outlier
 <img width="461" height="311" alt="image" src="https://github.com/user-attachments/assets/8b578d91-f11c-46c4-8aa0-1239c6bec562" />
 <img width="454" height="306" alt="image" src="https://github.com/user-attachments/assets/a47867bd-51ef-42f9-b19a-295ea5e55f7e" />
 
-Interpretasi
+Interpretasi:
 
 Berdasarkan gambar terdapat beberapa nilai outlier pada skor sekitar 2,9–3,7.
 
@@ -354,18 +357,17 @@ Berdasarkan gambar terdapat beberapa nilai outlier pada skor sekitar 2,9–3,7.
 Mean = 2,367
 SD = 0,392
 
-Interpretasi
+Interpretasi:
 
 Pada pendekatan Simple Random Sampling (SRS) diperoleh rata-rata skor Self-Regulated Learning sebesar 2,367.
 
 ## Analisis Two-Stage Cluster Sampling
-Hasil
 
 Mean = 2,380
 
 SE = 0,083
 
-Interpretasi
+Interpretasi:
 
 Setelah memperhitungkan bobot dan desain cluster, estimasi rata-rata Self-Regulated Learning menjadi 2,380. Nilai ini sedikit lebih besar dibandingkan rata-rata SRS karena mempertimbangkan struktur pengambilan sampel.
 
@@ -373,38 +375,31 @@ Setelah memperhitungkan bobot dan desain cluster, estimasi rata-rata Self-Regula
 
 2,217 – 2,543
 
-Interpretasi
+Interpretasi:
 
 Dengan tingkat kepercayaan 95%, rata-rata Self-Regulated Learning populasi diperkirakan berada pada interval 2,217 hingga 2,543.
 ## Relative Standard Error (RSE)
 
 3,50 %
 
-Interpretasi
+Interpretasi:
 
 Nilai RSE sebesar 3,50% berada jauh di bawah batas 25%, sehingga estimasi rata-rata memiliki ketelitian yang sangat baik dan layak digunakan sebagai dasar pengambilan kesimpulan.
 ## Design Effect (DEFF)
 
 DEFF = 1,481
 
-Interpretasi
+Interpretasi:
 
 Nilai Design Effect sebesar 1,481 menunjukkan bahwa varians pada desain Two-Stage Cluster Sampling sekitar 1,48 kali lebih besar dibandingkan jika menggunakan Simple Random Sampling.
 ## Perbandingan SRS vs Two-Stage Cluster Sampling
-| Parameter       |            SRS | Two-Stage Cluster |
-| --------------- | -------------: | ----------------: |
-| Mean            |          2,367 |             2,380 |
-| Memakai Bobot   |          Tidak |                Ya |
-| Memakai Cluster |          Tidak |                Ya |
-| Standard Error  | Tidak dihitung |             0,083 |
-| CI 95%          | Tidak dihitung |       2,217–2,543 |
-| RSE             | Tidak dihitung |             3,50% |
-| Design Effect   |      Tidak ada |             1,481 |
+<img width="532" height="273" alt="image" src="https://github.com/user-attachments/assets/e9998789-4877-4e50-b77d-48a410d1ea8d" />
+
 ## Visualisasi Tingkat Self-Regulated Learning
 
 <img width="455" height="305" alt="image" src="https://github.com/user-attachments/assets/d9f3a13e-2b9b-495b-825e-5039fd67ae88" />
 
-Interpretasi
+Interpretasi:
 
 Diagram batang menunjukkan distribusi responden berdasarkan kategori Self-Regulated Learning (SRL). Dari 30 responden, sebanyak 23 mahasiswa (76,67%) berada pada kategori Rendah, 6 mahasiswa (20,00%) berada pada kategori Tinggi, dan 1 mahasiswa (3,33%) berada pada kategori Sangat Tinggi. Tidak terdapat responden yang termasuk dalam kategori Sangat Rendah.
 
