@@ -37,6 +37,7 @@ Pengambilan sampel menggunakan metode Two-Stage Cluster Sampling. Pada tahap per
 Populasi Mahasiswa Statistika
         │
         ▼
+<img width="176" height="374" alt="image" src="https://github.com/user-attachments/assets/f3a645c7-00a5-4f62-b408-11da4ad794ec" />
 
 6 Cluster (Kelas)
 
