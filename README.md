@@ -400,6 +400,7 @@ Nilai Design Effect sebesar 1,481 menunjukkan bahwa varians pada desain Two-Stag
 ## Visualisasi Tingkat Self-Regulated Learning
 
 <img width="455" height="305" alt="image" src="https://github.com/user-attachments/assets/d9f3a13e-2b9b-495b-825e-5039fd67ae88" />
+
 Interpretasi
 
 Diagram batang menunjukkan distribusi responden berdasarkan kategori Self-Regulated Learning (SRL). Dari 30 responden, sebanyak 23 mahasiswa (76,67%) berada pada kategori Rendah, 6 mahasiswa (20,00%) berada pada kategori Tinggi, dan 1 mahasiswa (3,33%) berada pada kategori Sangat Tinggi. Tidak terdapat responden yang termasuk dalam kategori Sangat Rendah.
