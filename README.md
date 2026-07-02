@@ -4,7 +4,26 @@ Proyek ini bertujuan untuk mengestimasi tingkat Self-Regulated Learning (SRL) ma
 Data yang dikumpulkan berupa jawaban kuesioner menggunakan skala Likert empat tingkat. Selanjutnya dilakukan pengolahan data yang meliputi uji validitas, uji reliabilitas, pembentukan skor SRL, pembersihan data (data cleaning), perhitungan peluang terpilihnya sampel, pembentukan bobot sampel, serta analisis estimasi menggunakan metode Two-Stage Cluster Sampling. Hasil analisis akan menghasilkan estimasi rata-rata tingkat Self-Regulated Learning mahasiswa beserta ukuran presisinya, seperti standard error, interval kepercayaan 95%, dan relative standard error (RSE).
 Proyek ini diharapkan memberikan gambaran yang akurat mengenai tingkat Self-Regulated Learning mahasiswa Program Studi Statistika Universitas Mataram. Hasil penelitian dapat dimanfaatkan sebagai dasar evaluasi dan penyusunan kebijakan akademik untuk meningkatkan kemampuan belajar mandiri mahasiswa, sekaligus menjadi contoh penerapan metode survei dan teknik estimasi berbasis Two-Stage Cluster Sampling dalam penelitian statistika.
 ## STRUKTUR REPOSITORY
-
+ESTIMASI-TINGKAT-SRL-TWO-STAGE-CLUSTER-SAMPLING/
+│
+├── README.md
+│
+├── data/
+│   └── DATA TEKSAM.xlsx
+│
+├── script/
+│   └── analisis_SRL_TwoStageCluster.R
+│
+├── output/
+│   ├── hasil_validitas.csv
+│   ├── hasil_reliabilitas.txt
+│   ├── statistik_deskriptif.csv
+│   ├── hasil_estimasi_parameter.csv
+│   ├── histogram_skor.png
+│   ├── boxplot_skor.png
+│   └── diagram_kategori.png
+│
+└── LICENSE
 ## LATAR BELAKANG
 Self-Regulated Learning (SRL) merupakan kemampuan individu dalam mengatur, mengendalikan, dan mengevaluasi proses belajarnya secara mandiri untuk mencapai tujuan akademik. Mahasiswa yang memiliki tingkat SRL yang baik cenderung mampu menetapkan target belajar, mengelola waktu, mencari sumber belajar tambahan, serta melakukan evaluasi terhadap hasil belajar yang telah dicapai. Kemampuan ini sangat penting terutama bagi mahasiswa Program Studi Statistika yang dituntut memiliki kemampuan berpikir kritis, analitis, dan mandiri dalam memahami berbagai konsep statistik.
 Setiap mahasiswa memiliki tingkat Self-Regulated Learning yang berbeda-beda. Perbedaan tersebut dipengaruhi oleh berbagai faktor, seperti motivasi belajar, manajemen waktu, lingkungan belajar, serta kebiasaan belajar. Oleh karena itu, diperlukan penelitian untuk mengetahui gambaran tingkat Self-Regulated Learning mahasiswa Program Studi Statistika Universitas Mataram.
