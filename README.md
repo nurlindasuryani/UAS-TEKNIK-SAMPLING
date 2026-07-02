@@ -4,9 +4,6 @@ Proyek ini bertujuan untuk mengestimasi tingkat Self-Regulated Learning (SRL) ma
 Data yang dikumpulkan berupa jawaban kuesioner menggunakan skala Likert empat tingkat. Selanjutnya dilakukan pengolahan data yang meliputi uji validitas, uji reliabilitas, pembentukan skor SRL, pembersihan data (data cleaning), perhitungan peluang terpilihnya sampel, pembentukan bobot sampel, serta analisis estimasi menggunakan metode Two-Stage Cluster Sampling. Hasil analisis akan menghasilkan estimasi rata-rata tingkat Self-Regulated Learning mahasiswa beserta ukuran presisinya, seperti standard error, interval kepercayaan 95%, dan relative standard error (RSE).
 Proyek ini diharapkan memberikan gambaran yang akurat mengenai tingkat Self-Regulated Learning mahasiswa Program Studi Statistika Universitas Mataram. Hasil penelitian dapat dimanfaatkan sebagai dasar evaluasi dan penyusunan kebijakan akademik untuk meningkatkan kemampuan belajar mandiri mahasiswa, sekaligus menjadi contoh penerapan metode survei dan teknik estimasi berbasis Two-Stage Cluster Sampling dalam penelitian statistika.
 ## STRUKTUR REPOSITORY
-# Struktur Repository
-
-# DAFTAR ISI
 
 ## LATAR BELAKANG
 Self-Regulated Learning (SRL) merupakan kemampuan individu dalam mengatur, mengendalikan, dan mengevaluasi proses belajarnya secara mandiri untuk mencapai tujuan akademik. Mahasiswa yang memiliki tingkat SRL yang baik cenderung mampu menetapkan target belajar, mengelola waktu, mencari sumber belajar tambahan, serta melakukan evaluasi terhadap hasil belajar yang telah dicapai. Kemampuan ini sangat penting terutama bagi mahasiswa Program Studi Statistika yang dituntut memiliki kemampuan berpikir kritis, analitis, dan mandiri dalam memahami berbagai konsep statistik.
@@ -25,12 +22,12 @@ Penelitian ini merupakan penelitian kuantitatif dengan metode survei. Data dikum
 2.2 Populasi dan Sampel
 Populasi dalam penelitian ini adalah seluruh mahasiswa Program Studi Statistika Universitas Mataram yang menjadi sasaran penelitian.
 No	Cluster	Keterangan
-1	A 2023	Mahasiswa Statistika Angkatan 2023 Kelas A
-2	B 2023	Mahasiswa Statistika Angkatan 2023 Kelas B
-3	A 2024	Mahasiswa Statistika Angkatan 2024 Kelas A
-4	B 2024	Mahasiswa Statistika Angkatan 2024 Kelas B
-5	A 2025	Mahasiswa Statistika Angkatan 2025 Kelas A
-6	B 2025	Mahasiswa Statistika Angkatan 2025 Kelas B
+1	A 2023	  Mahasiswa Statistika Angkatan 2023 Kelas A
+2	B 2023	  Mahasiswa Statistika Angkatan 2023 Kelas B
+3	A 2024	  Mahasiswa Statistika Angkatan 2024 Kelas A
+4	B 2024  	Mahasiswa Statistika Angkatan 2024 Kelas B
+5	A 2025	  Mahasiswa Statistika Angkatan 2025 Kelas A
+6	B 2025	  Mahasiswa Statistika Angkatan 2025 Kelas B
 
 Pengambilan sampel menggunakan metode Two-Stage Cluster Sampling. Pada tahap pertama dilakukan pemilihan kelas sebagai klaster secara acak sederhana. Selanjutnya, pada tahap kedua dilakukan pemilihan mahasiswa secara acak dari setiap kelas yang terpilih sebagai responden penelitian.
 <img width="237" height="391" alt="image" src="https://github.com/user-attachments/assets/838cea4c-bb90-452f-b599-e7ddff221100" />
@@ -38,7 +35,12 @@ Pengambilan sampel menggunakan metode Two-Stage Cluster Sampling. Pada tahap per
 ## ANALISIS DATA
 
 ### 1. Import Data
+Import data merupakan proses memasukkan data dari file eksternal (Microsoft Excel) ke dalam RStudio agar dapat diolah dan dianalisis.
+**kode**
+data <- read_excel("D:/TEKNIK SAMPLING UAS.xlsx")
+Penjelasan
 
+Data yang diimpor berisi identitas responden (kelas, angkatan, jenis kelamin) serta jawaban 10 butir pertanyaan Self-Regulated Learning.
 ### 2. Persiapan Data
 
 ### 3. Mengubah Data Menjadi Numeriks
